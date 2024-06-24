@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44a31a4acb05d354f89b28bf78506c44, type: 3}
+  m_Name: Reactor I
+  m_EditorClassIdentifier: 
+  nameString: Reactor I
+  prefab: {fileID: 4857910836796737039, guid: 3a75df14ee7e00d4caa95963d69e334b, type: 3}
+  buildingSprite: {fileID: 21300000, guid: 8c05fe2b465e6bc4498d30f7f7e84ab6, type: 3}
+  resourceGeneratorData:
+    timerMax: 1
+    resourceType: {fileID: 11400000, guid: 7b388cc5b433a574a8a5bd88f7d9bab3, type: 2}
+  resourceConverterData:
+    timerMax: 0
+    differentialRate: 0
+    resourceInputType: {fileID: 0}
+    resourceOutputType: {fileID: 0}
+  constructionResourceCostArray:
+  - resourceType: {fileID: 11400000, guid: 7b388cc5b433a574a8a5bd88f7d9bab3, type: 2}
+    amount: 100
